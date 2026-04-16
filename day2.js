@@ -1,10 +1,11 @@
 console.log("day2")
-
+//Normal Function
 function add1(a,b){
     let sum = a+b;
     return sum;
 }
 console.log(add1(13,4));
+//Arrow Function
 const add =(a,b)=>a+b;
 console.log(add(3,4));
 const sub =(x,y)=>{
